@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-mist text-ink antialiased;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-6 py-20 md:px-10;
+}
+
+.card {
+  @apply rounded-2xl border border-cloud bg-white p-6 shadow-premium;
+}
